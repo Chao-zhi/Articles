@@ -101,6 +101,8 @@ sudo reboot
 
 现在只需正常安装英伟达驱动程序。
 
+> 注意：请提前配置好 rpmfusion 软件源。
+
 ```
 sudo dnf install gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs
 ```
